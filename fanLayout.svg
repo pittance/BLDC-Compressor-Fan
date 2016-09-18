@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="fanLayout.svg">
+  <defs
+     id="defs4">
+    <marker
+       orient="auto"
+       id="DistanceX"
+       style="overflow:visible"
+       refX="0.0"
+       refY="0.0">
+      <path
+         id="path4143"
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5"
+         style="stroke:#000000; stroke-width:0.5" />
+    </marker>
+    <pattern
+       id="Hatch"
+       x="0"
+       y="0"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8">
+      <path
+         id="path4146"
+         d="M8 4 l-4,4"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square" />
+      <path
+         id="path4148"
+         d="M6 2 l-4,4"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square" />
+      <path
+         id="path4150"
+         d="M4 0 l-4,4"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square" />
+    </pattern>
+    <symbol
+       id="*Model_Space" />
+    <symbol
+       id="*Paper_Space" />
+    <symbol
+       id="_OBLIQUE">
+      <path
+         id="path4155"
+         d="M -1.771654,1054.133858 1.771654,1050.590551"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+    </symbol>
+    <symbol
+       id="_DOT">
+      <path
+         id="path4158"
+         d="M -1.771654,1052.362205 -3.543307,1052.362205"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+    </symbol>
+    <symbol
+       id="_SE_FILLED">
+      <path
+         id="path4161"
+         d="M 0.000000,1052.362205 -3.543307,1052.362205"
+         style="stroke:#000000;fill:none" />
+    </symbol>
+    <symbol
+       id="DMBLK1">
+      <path
+         id="path4164"
+         d="M 16.579926,190.542655 L 28.981501,188.475726 L 16.579926,186.408797 L 16.579926,190.542655 z "
+         style="fill:#000000" />
+      <path
+         id="path4166"
+         d="M -40.538181,190.542655 L -40.538181,186.408797 L -52.939756,188.475726 L -40.538181,190.542655 z "
+         style="fill:#000000" />
+      <path
+         id="path4168"
+         d="M 28.981501,128.726174 28.981501,194.676514"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <path
+         id="path4170"
+         d="M -52.939759,128.726174 -52.939759,194.676514"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <path
+         id="path4172"
+         d="M 28.981501,188.475726 -52.939756,188.475726"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <text
+         id="text4174"
+         sodipodi:linespacing="125%"
+         style="font-size: 12.4px; fill: #000000; font-family: Arial"
+         x="-26.494607"
+         y="185.375333">
+        <tspan
+           id="tspan4176"
+           sodipodi:role="line">23,12</tspan>
+      </text>
+    </symbol>
+    <symbol
+       id="DMBLK2">
+      <path
+         id="path4179"
+         d="M 107.803682,74.159246 L 105.736753,61.757670 L 103.669824,74.159246 L 107.803682,74.159246 z "
+         style="fill:#000000" />
+      <path
+         id="path4181"
+         d="M 107.803682,116.324598 L 103.669824,116.324598 L 105.736753,128.726173 L 107.803682,116.324598 z "
+         style="fill:#000000" />
+      <path
+         id="path4183"
+         d="M 28.981501,61.757670 111.937540,61.757670"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <path
+         id="path4185"
+         d="M 28.981501,128.726174 111.937540,128.726174"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <path
+         id="path4187"
+         d="M 105.736753,61.757670 105.736753,128.726173"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <text
+         id="text4189"
+         sodipodi:linespacing="125%"
+         transform="rotate (-90.000000 102.636359 106.657007)"
+         style="font-size: 12.4px; fill: #000000; font-family: Arial"
+         x="102.636359"
+         y="106.657007">
+        <tspan
+           id="tspan4191"
+           sodipodi:role="line">18,9</tspan>
+      </text>
+    </symbol>
+    <symbol
+       id="DMBLK3">
+      <path
+         id="path4194"
+         d="M -27.924011,160.135230 L -15.522436,158.068301 L -27.924011,156.001371 L -27.924011,160.135230 z "
+         style="fill:#000000" />
+      <path
+         id="path4196"
+         d="M 3.965753,160.135230 L 3.965753,156.001371 L -8.435822,158.068301 L 3.965753,160.135230 z "
+         style="fill:#000000" />
+      <path
+         id="path4198"
+         d="M -15.522436,139.710426 -15.522436,164.269088"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <path
+         id="path4200"
+         d="M -8.435822,139.710426 -8.435822,164.269088"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <path
+         id="path4202"
+         d="M -40.325587,158.068301 16.367326,158.068301"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <text
+         id="text4204"
+         sodipodi:linespacing="125%"
+         style="font-size: 12.4px; fill: #000000; font-family: Arial"
+         x="-15.784158"
+         y="154.967907">
+        <tspan
+           id="tspan4206"
+           sodipodi:role="line">2</tspan>
+      </text>
+    </symbol>
+    <symbol
+       id="DMBLK4">
+      <path
+         id="path4209"
+         d="M -33.751977,116.324599 L -31.685047,128.726174 L -29.618118,116.324599 L -33.751977,116.324599 z "
+         style="fill:#000000" />
+      <path
+         id="path4211"
+         d="M -33.751977,152.112001 L -29.618118,152.112001 L -31.685047,139.710426 L -33.751977,152.112001 z "
+         style="fill:#000000" />
+      <path
+         id="path4213"
+         d="M -15.522436,128.726174 -37.885835,128.726174"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <path
+         id="path4215"
+         d="M -15.522436,139.710426 -37.885835,139.710426"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <path
+         id="path4217"
+         d="M -31.685047,103.923024 -31.685047,164.513574"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <text
+         id="text4219"
+         sodipodi:linespacing="125%"
+         transform="rotate (-90.000000 -34.785441 141.123723)"
+         style="font-size: 12.4px; fill: #000000; font-family: Arial"
+         x="-34.785441"
+         y="141.123723">
+        <tspan
+           id="tspan4221"
+           sodipodi:role="line">3,1</tspan>
+      </text>
+    </symbol>
+    <symbol
+       id="DMBLK5">
+      <path
+         id="path4224"
+         d="M 13.488978,45.600190 L 9.355119,45.600190 L 11.422048,58.001765 L 13.488978,45.600190 z "
+         style="fill:#000000" />
+      <path
+         id="path4226"
+         d="M 13.488978,74.159246 L 11.422048,61.757670 L 9.355119,74.159246 L 13.488978,74.159246 z "
+         style="fill:#000000" />
+      <path
+         id="path4228"
+         d="M -8.435822,58.001765 17.622836,58.001765"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <path
+         id="path4230"
+         d="M -8.435822,61.757670 17.622836,61.757670"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <path
+         id="path4232"
+         d="M 11.422048,33.198614 11.422048,86.560820"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <text
+         id="text4234"
+         sodipodi:linespacing="125%"
+         transform="rotate (-90.000000 8.321655 71.012950)"
+         style="font-size: 12.4px; fill: #000000; font-family: Arial"
+         x="8.321655"
+         y="71.012950">
+        <tspan
+           id="tspan4236"
+           sodipodi:role="line">1,06</tspan>
+      </text>
+    </symbol>
+    <symbol
+       id="DMBLK6">
+      <path
+         id="path4239"
+         d="M -50.955508,355.576537 L -38.553932,353.509608 L -50.955508,351.442678 L -50.955508,355.576537 z "
+         style="fill:#000000" />
+      <path
+         id="path4241"
+         d="M -17.294089,355.576537 L -17.294089,351.442678 L -29.695665,353.509608 L -17.294089,355.576537 z "
+         style="fill:#000000" />
+      <path
+         id="path4243"
+         d="M -38.553932,339.156029 -38.553932,359.710395"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <path
+         id="path4245"
+         d="M -29.695665,339.156029 -29.695665,359.710395"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <path
+         id="path4247"
+         d="M -63.357083,353.509608 43.519268,353.509608"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <text
+         id="text4249"
+         sodipodi:linespacing="125%"
+         style="font-size: 12.4px; fill: #000000; font-family: Arial"
+         x="22.267479"
+         y="350.409214">
+        <tspan
+           id="tspan4251"
+           sodipodi:role="line">2,5</tspan>
+      </text>
+    </symbol>
+    <symbol
+       id="DMBLK7">
+      <path
+         id="path4254"
+         d="M -12.120862,90.424499 L -12.120862,94.558357 L 0.280713,92.491428 L -12.120862,90.424499 z "
+         style="fill:#000000" />
+      <path
+         id="path4256"
+         d="M 19.627170,90.424499 L 7.225595,92.491428 L 19.627170,94.558357 L 19.627170,90.424499 z "
+         style="fill:#000000" />
+      <path
+         id="path4258"
+         d="M 0.280713,107.177727 0.280713,86.290641"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <path
+         id="path4260"
+         d="M 7.225595,107.177727 7.225595,86.290641"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <path
+         id="path4262"
+         d="M -24.522437,92.491428 32.028746,92.491428"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <text
+         id="text4264"
+         sodipodi:linespacing="125%"
+         style="font-size: 12.4px; fill: #000000; font-family: Arial"
+         x="-7.521005"
+         y="89.391034">
+        <tspan
+           id="tspan4266"
+           sodipodi:role="line">1,96</tspan>
+      </text>
+    </symbol>
+    <symbol
+       id="DMBLK8">
+      <path
+         id="path4269"
+         d="M -11.837397,79.514676 L -24.238972,81.581606 L -11.837397,83.648535 L -11.837397,79.514676 z "
+         style="fill:#000000" />
+      <path
+         id="path4271"
+         d="M -43.585429,79.514676 L -43.585429,83.648535 L -31.183854,81.581606 L -43.585429,79.514676 z "
+         style="fill:#000000" />
+      <path
+         id="path4273"
+         d="M -24.238972,107.177727 -24.238972,75.380818"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <path
+         id="path4275"
+         d="M -31.183854,107.177727 -31.183854,75.380818"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <path
+         id="path4277"
+         d="M 0.564179,81.581606 -66.189750,81.581606"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <text
+         id="text4279"
+         sodipodi:linespacing="125%"
+         style="font-size: 12.4px; fill: #000000; font-family: Arial"
+         x="-61.849199"
+         y="78.481212">
+        <tspan
+           id="tspan4281"
+           sodipodi:role="line">1,96</tspan>
+      </text>
+    </symbol>
+    <symbol
+       id="DMBLK9">
+      <path
+         id="path4284"
+         d="M -18.782278,181.836934 L -18.782278,177.703075 L -31.183854,179.770004 L -18.782278,181.836934 z "
+         style="fill:#000000" />
+      <path
+         id="path4286"
+         d="M -5.175981,181.836934 L 7.225594,179.770004 L -5.175981,177.703075 L -5.175981,181.836934 z "
+         style="fill:#000000" />
+      <path
+         id="path4288"
+         d="M -31.183854,128.726174 -31.183854,185.970792"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <path
+         id="path4290"
+         d="M 7.225595,128.726174 7.225595,185.970792"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <path
+         id="path4292"
+         d="M -31.183854,179.770004 7.225594,179.770004"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <text
+         id="text4294"
+         sodipodi:linespacing="125%"
+         style="font-size: 12.4px; fill: #000000; font-family: Arial"
+         x="-26.917390"
+         y="176.669611">
+        <tspan
+           id="tspan4296"
+           sodipodi:role="line">10,84</tspan>
+      </text>
+    </symbol>
+    <symbol
+       id="DMBLK10">
+      <path
+         id="path4299"
+         d="M -40.112988,98.715930 L -40.112988,102.849788 L -27.711413,100.782859 L -40.112988,98.715930 z "
+         style="fill:#000000" />
+      <path
+         id="path4301"
+         d="M 16.154729,98.715930 L 3.753154,100.782859 L 16.154729,102.849788 L 16.154729,98.715930 z "
+         style="fill:#000000" />
+      <path
+         id="path4303"
+         d="M -27.711413,107.177727 -27.711413,94.582072"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <path
+         id="path4305"
+         d="M 3.753154,107.177727 3.753154,94.582072"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <path
+         id="path4307"
+         d="M -52.514563,100.782859 66.315279,100.782859"
+         style="stroke:#000000;fill:none;stroke-linecap: round" />
+      <text
+         id="text4309"
+         sodipodi:linespacing="125%"
+         style="font-size: 12.4px; fill: #000000; font-family: Arial"
+         x="36.044167"
+         y="97.682465">
+        <tspan
+           id="tspan4311"
+           sodipodi:role="line">8,88</tspan>
+      </text>
+    </symbol>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.50172841"
+     inkscape:cx="372.04724"
+     inkscape:cy="526.18109"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="fanClip"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <g
+       inkscape:label="0"
+       id="g4313"
+       transform="translate(297.11162,50.69967)" />
+    <path
+       id="path4405"
+       transform="translate(717.67243,484.70306)"
+       style="fill:none;stroke:#587ece;stroke-linecap:round;stroke-opacity:1"
+       d="m -117.63402,108.86503 -25.66972,25.52576 c 59.686712,48.27649 63.406806,92.69184 20.597,146.23798 l -2.681,2.20115 89.724129,0 0.631004,-0.38913 c -7.632951,-60.15553 -14.374996,-114.99 -82.601413,-173.57576 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="fanShroud"
+     style="display:inline">
+    <path
+       id="path4411"
+       transform="translate(717.67243,484.70306)"
+       style="fill:none;stroke:#ce58c6;stroke-linecap:round;stroke-opacity:1"
+       d="m -11.979129,282.82992 0,-14.22982 0,-121.49202 -5.616847,0 0,-18.38191 -35.343783,0 c 5.41802,57.28026 0.03543,49.70204 -10.520654,33.57012 -10.556084,-16.13193 -28.711619,-35.96564 -51.265447,-56.56741 l -5.99118,6.413 c 48.964013,49.47963 71.955624,78.20176 82.163108,170.68804 l 8.858267,0 z m -119.637401,0 14.11374,0 C -64.559773,215.9856 -90.578874,176.8495 -139.03865,130.02125 l -7.8006,7.67478 c 58.492315,49.5684 61.333662,87.81633 20.99965,138.61743 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccsccccccccccc" />
+  </g>
+</svg>
