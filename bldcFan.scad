@@ -10,10 +10,23 @@ bladeThick = 1.8;       //thickness of rotor blades
 bladeSpan = 80;         //blade span (axis to edge, clipped by profile)
 twistMult = 2;        //increase twist on rotor (tweaks the value from twister())
 
-fan();
+//fan();
 //motor();
-//bladeArray();
+base();
+casing();
+fairing();
 
+//cylinder(h=1,d=160);
+
+module fairing() {
+    rotate_extrude($fn=detail)translate([-199.5,0,0])import (file="fanLayout.dxf",layer="fairing",convexity=5);
+}
+module base() {
+    rotate_extrude($fn=detail)translate([-199.5,0,0])import (file="fanLayout.dxf",layer="base",convexity=5);
+}
+module casing() {
+    rotate_extrude($fn=detail)translate([-199.5,0,0])import (file="fanLayout.dxf",layer="casing",convexity=5);
+}
 module motor() {
     color([0.9,0.2,0.2])translate([0,0,120])cylinder(h=18.48,d=23.1,$fn=detail);
 }
