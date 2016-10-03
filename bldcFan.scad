@@ -12,23 +12,58 @@ twistMult = 2;        //increase twist on rotor (tweaks the value from twister()
 
 //fan();
 //motor();
-base();
-casing();
-fairing();
+//base();
+//casing();
+//fairing();
+//casingBrace();
 
+intakeShroud();
+motorShroud();
+
+// print bed scale
 //cylinder(h=1,d=160);
 
+
+
+//FINAL PARTS (clipped from base parts)
+module intakeShroud() {
+    //clipped from casing
+    intersection() {
+        casing();
+        cylinder(d=180,h=121.022,$fn=10,convexity=5);
+    }
+}
+module motorShroud() {
+    //clipped from casing
+    difference() {
+        casing();
+        cylinder(d=180,h=121.022,$fn=10,convexity=5);
+    }
+}
+//BASE PARTS(clipped in final parts for printing)
 module fairing() {
-    rotate_extrude($fn=detail)translate([-199.5,0,0])import (file="fanLayout.dxf",layer="fairing",convexity=5);
+    rotate_extrude($fn=detail,convexity=5)translate([-199.5,0,0])import (file="fanLayout.dxf",layer="fairing",convexity=5);
 }
 module base() {
     rotate_extrude($fn=detail)translate([-199.5,0,0])import (file="fanLayout.dxf",layer="base",convexity=5);
+    for(i=[0:3]) {
+        rotate([0,0,i*(360/3)])casingBrace();
+    }
 }
 module casing() {
-    rotate_extrude($fn=detail)translate([-199.5,0,0])import (file="fanLayout.dxf",layer="casing",convexity=5);
+    rotate_extrude($fn=detail,convexity=5)translate([-199.5,0,0])import (file="fanLayout.dxf",layer="casing",convexity=2);
 }
 module motor() {
     color([0.9,0.2,0.2])translate([0,0,120])cylinder(h=18.48,d=23.1,$fn=detail);
+}
+module casingBrace() {
+    difference() {
+        translate([-199.5,5,0])rotate([90,0,0])difference() {
+            linear_extrude(10)import(file="fanLayout.dxf",layer="casingBrace",convexity=5);
+            linear_extrude(10-2)import(file="fanLayout.dxf",layer="casingBraceCut",convexity=5);
+        }
+        translate([-50,0,119])rotate([0,48,0])boltHole(20,6,15,3.2);
+    }
 }
 module fan() {
     //fan compilation module
@@ -104,3 +139,16 @@ function tw2(frac) = -twistMult/6*exp(-frac+1)*exp(-frac+1)*exp(-frac+1)*exp(-fr
 //function tw2(frac) = -twistMult*20*(cos((-frac+1)*180)+1);
 //function twister(frac) = [0,0,-twistMult*exp(frac)*exp(frac)*exp(frac)*exp(frac)*exp(frac)];
 //function twisty(frac) = -twistMult*exp(frac)*exp(frac)*exp(frac)*exp(frac)*exp(frac);
+
+module boltHole(headLength, headDiam, shaftLength, shaftDiam) {
+ 	//(M3)
+	//head length std = 3mm
+	//head diameter std = 5.5mm
+        //length defined
+	//shaft diameter std = 3mm
+        //3,5.5,12,2.1 
+	union() {
+		cylinder(h=shaftLength,d=shaftDiam,$fn=detail);
+		translate([0,0,-headLength]) cylinder(h=headLength,d=headDiam,$fn=detail); //h=2.9
+	}
+}
